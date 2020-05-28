@@ -1,0 +1,34 @@
+{
+  "expo": {
+    "name": "fitness-calculator",
+    "slug": "fitness-calculator",
+    "platforms": [
+      "ios",
+      "android",
+      "web"
+    ],
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#ffffff"
+    },
+    "updates": {
+      "fallbackToCacheTimeout": 0
+    },
+    "assetBundlePatterns": [
+      "**/*"
+    ],
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "package": "com.brainiacs.fitness_calculator",
+      "versionCode": 1
+    },
+    "description": "This is a fitness calculator where you can measure your weight along with height and you can see your BMI score. You will be suggested the BMI range also",
+    "githubUrl": "https://github.com/shahan953/fitness-calculator"
+  }
+}
